@@ -4,5 +4,9 @@
     <!-- Facebook Auth -->
     <string name="facebook_app_id">1820480274733884</string>
     <string name="fb_login_protocol_scheme">fb1820480274733884</string>
+    <string name="title_activity_user">UserActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_messages">Messages</string>
+    <string name="title_settings">Settings</string>
 
 </resources>
