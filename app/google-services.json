@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1083759476634",
+    "firebase_url": "https://hagaki-18b82.firebaseio.com",
+    "project_id": "hagaki-18b82",
+    "storage_bucket": "hagaki-18b82.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1083759476634:android:a33d0b03ce5a9ae4",
+        "android_client_info": {
+          "package_name": "com.hagaki.wapwapapp.hagaki_japanesepostcard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1083759476634-t6sp58lfgvldoer2eo65slve5ciubsdk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hagaki.wapwapapp.hagaki_japanesepostcard",
+            "certificate_hash": "c379bfbadc26ce59c2391f66af9ba64be5cb6ef3"
+          }
+        },
+        {
+          "client_id": "1083759476634-hlaqri6ttpg7ntd84t6atcubvgb608kp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqIirJzFc7ZuKKWDr_FY9UkKjq0sk3J2k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1083759476634-hlaqri6ttpg7ntd84t6atcubvgb608kp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

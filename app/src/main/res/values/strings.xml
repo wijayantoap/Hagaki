@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Hagaki! - Japanese Post Card</string>
+
+    <!-- Facebook Auth -->
+    <string name="facebook_app_id">1820480274733884</string>
+    <string name="fb_login_protocol_scheme">fb1820480274733884</string>
+
+</resources>
