@@ -3,6 +3,8 @@ package com.hagaki.wapwapapp.hagaki_japanesepostcard;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 import android.widget.TextView;
@@ -21,6 +23,8 @@ public class UserActivity extends AppCompatActivity {
 
         @Override
         public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+            FragmentManager fragmentManager = getSupportFragmentManager();
+            FragmentTransaction transaction = fragmentManager.beginTransaction();
             switch (item.getItemId()) {
                 case R.id.navigation_home:
                     return true;
@@ -38,8 +42,12 @@ public class UserActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_user);
 
-        BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigation);
+        BottomNavigationView navigation = findViewById(R.id.navigation);
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
+
+        FragmentManager fragmentManager = getSupportFragmentManager();
+        FragmentTransaction transaction = fragmentManager.beginTransaction();
+        transaction.replace(R.id.frameLayout, new PostFragment()).commit();
 
         MobileAds.initialize(this, "ca-app-pub-1112252263707173~8769156593");
 
